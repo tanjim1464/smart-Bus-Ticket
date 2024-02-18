@@ -24,3 +24,79 @@
     font-weight: 700;
     font-style: normal;
   }
+  .card {
+    width: 180px;
+    border-radius: 10px;
+    margin: 50px;
+    background: #f6f2d7;
+    overflow: hidden;
+  }
+  .card-header {
+    height: 250px;
+    border: 2px solid #836602;
+    border-bottom: 2px dotted #836602;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+  }
+  .card-header:before, .card-header:after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 100%;
+    bottom: -12px;
+    border: 2px solid #836602;
+    box-sizing: border-box;
+  }
+  .card-header:before { 
+    left: -13px;
+  }
+  .card-header:after {
+    right: -13px;
+  }
+  .card-body {
+    height: 150px;
+    border: 2px solid #836602;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .one {
+    width: 180px;
+    border-radius: 10px;
+    margin: 50px;
+    background: #f6f2d7;
+    overflow: hidden;
+  }
+  .two {
+    height: 250px;
+    border: 2px solid #836602;
+    border-bottom: 2px dotted #836602;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+  }
+  .two:before, .two:after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 100%;
+    bottom: -12px;
+    border: 2px solid #836602;
+    box-sizing: border-box;
+  }
+  .two:before { 
+    left: -13px;
+  }
+  .two:after {
+    right: -13px;
+  }
+  .three {
+    height: 150px;
+    border: 2px solid #836602;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+  }
+   
